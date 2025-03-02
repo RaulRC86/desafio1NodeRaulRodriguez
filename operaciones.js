@@ -48,8 +48,8 @@ const leer = () => {
     }
 
     console.log("=== REGISTRO DE CITAS ===")
-    citas.forEach((cita, index) => {
-      console.log(`\nCita #${index + 1}:`)
+    citas.forEach((cita, numero) => {
+      console.log(`\nCita #${numero + 1}:`)
       console.log(`Nombre: ${cita.nombre}`)
       console.log(`Edad: ${cita.edad}`)
       console.log(`Tipo: ${cita.tipo}`)
